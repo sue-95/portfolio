@@ -1,0 +1,128 @@
+/*텍스트 값*/
+.font-logo {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;}
+  .font-nomal{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;}
+    .font-nomal-2{
+      font-family: "42dot Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+    }
+/*텍스트컬러*/
+  .text-color-default {
+    color: #1A1F4B;}
+  .text-color-primary{
+    color:#6c84af}
+  .text-wh{
+    color: #F9F6F1;}
+/*텍스트사이즈*/
+  .sub-heading-text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-style: bold;
+}
+  .title-text {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.1;
+  }
+  .body-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.1;
+  }
+
+  /*모든영역 적용*/
+  
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+/* 헤더영역 */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1F4B;
+    color: #F9F6F1;
+    size: 10px;
+    height: 130px;
+    align-items: center;
+    padding: 0 100px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-menu{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.menu-btn {
+  color: #f9f6f1;;
+  height: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 20px
+}
+.menu-btn:hover {
+  background-color: #f9f6f1;
+  color: #1A1F4B;
+  transition: background-color 0.5s ease-in-out;
+}
+ .menu-btn:active {
+     background-color: #7888cf;
+ }
+
+ /*메인영역*/
+
+ .main{
+    margin-top: 130px
+ }
+ .profile-img {
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+ }
+
+ .container {
+    max-width: 1320px;
+    margin: o auto;
+    display: flex;
+    gap: 40px;
+    padding: 200px 0;
+ }
+
+ .sub-heading{
+    font-size: 14px;
+    color: #6c84af;
+    padding-bottom: 8px;
+ }
+ .txt {
+    font-size: 24px;
+    padding-bottom: 24px;
+ }
